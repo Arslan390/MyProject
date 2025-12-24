@@ -1,9 +1,16 @@
 package entity;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
 
 import java.time.LocalDateTime;
 
+@Getter
+@NoArgsConstructor
+@ToString
 @Entity
 @Table(name = "users")
 public class User {
@@ -12,12 +19,15 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Setter
     @Column(nullable = false)
     private String name;
 
+    @Setter
     @Column(unique = true, nullable = false)
     private String email;
 
+    @Setter
     @Column(nullable = false)
     private Integer age;
 
@@ -28,49 +38,9 @@ public class User {
         createTime = LocalDateTime.now();
     }
 
-    public User() {
-    }
-
     public User(String name, String email, Integer age) {
         this.name = name;
         this.email = email;
-        this.age = age;
-    }
-
-    @Override
-    public String toString() {
-        return String.format("User[name = %s, email = %s, age = %d],[id = %d, Registration_time = %s]", name, email, age, id, createTime);
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public Integer getAge() {
-        return age;
-    }
-
-    public LocalDateTime getCreateTime() {
-        return createTime;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public void setAge(Integer age) {
         this.age = age;
     }
 }

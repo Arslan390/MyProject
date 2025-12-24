@@ -3,11 +3,12 @@ package service;
 import dao.UserDao;
 import dao.UserDaoImpl;
 import entity.User;
+import lombok.extern.slf4j.Slf4j;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+@Slf4j
 public class UserService {
     private final UserDao userDao;
 
@@ -19,66 +20,66 @@ public class UserService {
         List<User> users = userDao.findAll();
         if (!users.isEmpty()) {
             for (User user : users) {
-                System.out.println(user);
+                log.info(user.toString());
             }
         }  else {
-            System.out.println("Нет зарегистрированных пользователей.");
+            log.warn("Нет зарегистрированных пользователей.");
         }
     }
 
     public void getUserById(Scanner scanner) {
-        System.out.print("ID пользователя: ");
+        System.out.println("ID пользователя: ");
         long id = Long.parseLong(scanner.nextLine());
         User user = userDao.findById(id);
         if (user != null) {
-            System.out.println(user);
+            log.info(user.toString());
         } else {
-            System.out.println("Пользователь с таким ID не найден.");
+            log.warn("Пользователь с таким ID не найден.");
         }
     }
 
     public void createUser(Scanner scanner) {
-        System.out.print("Имя: ");
+        System.out.println("Имя: ");
         String name = scanner.nextLine();
-        System.out.print("E-mail: ");
+        System.out.println("E-mail: ");
         String email = scanner.nextLine();
-        System.out.print("Возраст: ");
+        System.out.println("Возраст: ");
         int age = Integer.parseInt(scanner.nextLine());
         User user = new User(name, email, age);
         userDao.save(user);
-        System.out.println("Пользователь успешно создан.");
+        log.info("Пользователь успешно создан.");
     }
 
     public void updateUser(Scanner scanner) {
-        System.out.print("ID пользователя для обновления: ");
+        System.out.println("ID пользователя для обновления: ");
         long id = Long.parseLong(scanner.nextLine());
         User existingUser = userDao.findById(id);
         if (existingUser != null) {
-            System.out.print("Новое имя: ");
+            System.out.println("Новое имя: ");
             String name = scanner.nextLine();
-            System.out.print("Новый e-mail: ");
+            System.out.println("Новый e-mail: ");
             String email = scanner.nextLine();
-            System.out.print("Новый возраст: ");
+            System.out.println("Новый возраст: ");
             int age = Integer.parseInt(scanner.nextLine());
             existingUser.setName(name);
             existingUser.setEmail(email);
             existingUser.setAge(age);
             userDao.update(existingUser);
-            System.out.println("Данные обновлены.");
+            log.info("Данные обновлены.");
         } else {
-            System.out.println("Пользователь с указанным ID не существует.");
+            log.warn("Пользователь с указанным ID не существует.");
         }
     }
 
     public void deleteUser(Scanner scanner) {
-        System.out.print("ID пользователя для удаления: ");
+        System.out.println("ID пользователя для удаления: ");
         long id = Long.parseLong(scanner.nextLine());
         User user = userDao.findById(id);
         if (user != null) {
-            userDao.delete(id);
-            System.out.println("Пользователь успешно удалён.");
+            userDao.delete(user);
+            log.info("Пользователь успешно удалён.");
         } else {
-            System.out.println("Пользователь с данным ID не найден.");
+            log.warn("Пользователь с данным ID не найден.");
         }
     }
 }

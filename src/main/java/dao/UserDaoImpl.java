@@ -14,10 +14,14 @@ public class UserDaoImpl implements UserDao {
     private static final SessionFactory factory;
 
     static {
-        ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder()
-                .configure()
-                .build();
-        factory = new MetadataSources(serviceRegistry).buildMetadata().buildSessionFactory();
+        try {
+            ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder()
+                    .configure()
+                    .build();
+            factory = new MetadataSources(serviceRegistry).buildMetadata().buildSessionFactory();
+        } catch (Exception e) {
+            throw new ExceptionInInitializerError(e);
+        }
     }
 
     @Override
@@ -53,13 +57,11 @@ public class UserDaoImpl implements UserDao {
     }
 
     @Override
-    public void delete(Long id) {
+    public void delete(User user) {
         try (Session session = factory.openSession()) {
             Transaction transaction = session.beginTransaction();
-            User userToDelete = session.find(User.class, id);
-            if (userToDelete != null) {
-                session.remove(userToDelete);
-            }
+
+            session.remove(user);
             transaction.commit();
         }
     }

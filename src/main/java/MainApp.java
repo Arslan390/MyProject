@@ -1,7 +1,9 @@
+import lombok.extern.slf4j.Slf4j;
 import service.UserService;
 
 import java.util.Scanner;
 
+@Slf4j
 public class MainApp {
     public static void main(String[] args) {
 
@@ -45,10 +47,11 @@ public class MainApp {
                     scanner.nextLine();
                     break;
                 case 6:
+                    log.info("Приложение завершено.");
                     System.exit(0);
                     break;
                 default:
-                    System.out.println("Некорректный выбор!");
+                    log.warn("Некорректный выбор!");
             }
         }
     }
