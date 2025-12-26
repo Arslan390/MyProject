@@ -1,16 +1,13 @@
 package service;
 
 import dao.UserDao;
-import dao.UserDaoImpl;
 import entity.User;
 import exception.UserException;
 
 import java.util.List;
 import java.util.Optional;
 
-public class UserService {
-
-    private final UserDao<User, Long> userDao = new UserDaoImpl();
+public record UserService(UserDao<User, Long> userDao) {
 
     public List<User> getAllUsers() {
         List<User> users = userDao.findAll();
