@@ -3,83 +3,63 @@ package service;
 import dao.UserDao;
 import dao.UserDaoImpl;
 import entity.User;
-import lombok.extern.slf4j.Slf4j;
+import exception.UserException;
 
 import java.util.List;
-import java.util.Scanner;
+import java.util.Optional;
 
-@Slf4j
 public class UserService {
-    private final UserDao userDao;
 
-    public UserService() {
-        this.userDao = new UserDaoImpl();
-    }
+    private final UserDao<User, Long> userDao = new UserDaoImpl();
 
-    public void getAllUsers() {
+    public List<User> getAllUsers() {
         List<User> users = userDao.findAll();
-        if (!users.isEmpty()) {
-            for (User user : users) {
-                log.info(user.toString());
-            }
-        }  else {
-            log.warn("Нет зарегистрированных пользователей.");
+        if (users.isEmpty()) {
+            throw new UserException("В системе пока нет пользователей");
+        }
+        return users;
+    }
+
+    public Optional<User> getUserById(Long id) {
+        if (id == null || id <= 0) {
+            throw new UserException("Некорректный ID пользователя");
+        }
+        return userDao.findById(id);
+    }
+
+    public boolean saveUser(User user) {
+        validateUser(user);
+        return userDao.create(user);
+    }
+
+    public boolean updateUser(User user) {
+        validateUser(user);
+        if (userNotExist(user.getId())) {
+            throw new UserException("Пользователь с ID " + user.getId() + " не найден");
+        }
+        return userDao.update(user);
+    }
+
+    public boolean deleteUser(Long id) {
+        if (userNotExist(id)) {
+            throw new UserException("Пользователь с ID " + id + " не найден");
+        }
+        return userDao.delete(id);
+    }
+
+    private void validateUser(User user) {
+        if (user == null) {
+            throw new UserException("Пользователь не может быть null");
+        }
+        if (user.getUsername().isEmpty()) {
+            throw new UserException("Имя пользователя обязательно");
+        }
+        if (user.getEmail().isEmpty()) {
+            throw new UserException("Email пользователя обязателен");
         }
     }
 
-    public void getUserById(Scanner scanner) {
-        System.out.println("ID пользователя: ");
-        long id = Long.parseLong(scanner.nextLine());
-        User user = userDao.findById(id);
-        if (user != null) {
-            log.info(user.toString());
-        } else {
-            log.warn("Пользователь с таким ID не найден.");
-        }
-    }
-
-    public void createUser(Scanner scanner) {
-        System.out.println("Имя: ");
-        String name = scanner.nextLine();
-        System.out.println("E-mail: ");
-        String email = scanner.nextLine();
-        System.out.println("Возраст: ");
-        int age = Integer.parseInt(scanner.nextLine());
-        User user = new User(name, email, age);
-        userDao.save(user);
-        log.info("Пользователь успешно создан.");
-    }
-
-    public void updateUser(Scanner scanner) {
-        System.out.println("ID пользователя для обновления: ");
-        long id = Long.parseLong(scanner.nextLine());
-        User existingUser = userDao.findById(id);
-        if (existingUser != null) {
-            System.out.println("Новое имя: ");
-            String name = scanner.nextLine();
-            System.out.println("Новый e-mail: ");
-            String email = scanner.nextLine();
-            System.out.println("Новый возраст: ");
-            int age = Integer.parseInt(scanner.nextLine());
-            existingUser.setName(name);
-            existingUser.setEmail(email);
-            existingUser.setAge(age);
-            userDao.update(existingUser);
-            log.info("Данные обновлены.");
-        } else {
-            log.warn("Пользователь с указанным ID не существует.");
-        }
-    }
-
-    public void deleteUser(Scanner scanner) {
-        System.out.println("ID пользователя для удаления: ");
-        long id = Long.parseLong(scanner.nextLine());
-        User user = userDao.findById(id);
-        if (user != null) {
-            userDao.delete(user);
-            log.info("Пользователь успешно удалён.");
-        } else {
-            log.warn("Пользователь с данным ID не найден.");
-        }
+    private boolean userNotExist(Long id) {
+        return id == null || userDao.findById(id).isEmpty();
     }
 }

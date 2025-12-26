@@ -4,65 +4,88 @@ import entity.User;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
-import org.hibernate.boot.MetadataSources;
-import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
-import org.hibernate.service.ServiceRegistry;
+import utils.HibernateUtil;
 
 import java.util.List;
+import java.util.Optional;
 
-public class UserDaoImpl implements UserDao {
-    private static final SessionFactory factory;
 
-    static {
-        try {
-            ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder()
-                    .configure()
-                    .build();
-            factory = new MetadataSources(serviceRegistry).buildMetadata().buildSessionFactory();
-        } catch (Exception e) {
-            throw new ExceptionInInitializerError(e);
-        }
-    }
+public class UserDaoImpl implements UserDao<User, Long> {
+
+    private static final SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
+
 
     @Override
     public List<User> findAll() {
-        try (Session session = factory.openSession()) {
+        try (Session session = sessionFactory.openSession()) {
             return session.createQuery("FROM User", User.class).list();
+        } catch (Exception ex) {
+            throw new RuntimeException("Ошибка при получении списка пользователей", ex);
         }
     }
 
+
     @Override
-    public User findById(Long id) {
-        try (Session session = factory.openSession()) {
-            return session.find(User.class, id);
+    public Optional<User> findById(Long id) {
+        try (Session session = sessionFactory.openSession()) {
+            return Optional.ofNullable(session.find(User.class, id));
+        } catch (Exception ex) {
+            throw new RuntimeException("Ошибка при поиске пользователя по ID: " + id, ex);
         }
     }
 
+
     @Override
-    public void save(User user) {
-        try (Session session = factory.openSession()) {
-            Transaction transaction = session.beginTransaction();
+    public boolean create(User user) {
+        Transaction transaction = null;
+        try (Session session = sessionFactory.openSession()) {
+            transaction = session.beginTransaction();
             session.persist(user);
             transaction.commit();
+            return true;
+        } catch (Exception ex) {
+            if (transaction != null && transaction.isActive()) {
+                transaction.rollback();
+            }
+            throw new RuntimeException("Ошибка при сохранении пользователя", ex);
         }
     }
 
+
     @Override
-    public void update(User user) {
-        try (Session session = factory.openSession()) {
-            Transaction transaction = session.beginTransaction();
+    public boolean update(User user) {
+        Transaction transaction = null;
+        try (Session session = sessionFactory.openSession()) {
+            transaction = session.beginTransaction();
             session.merge(user);
             transaction.commit();
+            return true;
+        } catch (Exception ex) {
+            if (transaction != null && transaction.isActive()) {
+                transaction.rollback();
+            }
+            throw new RuntimeException("Ошибка при обновлении пользователя", ex);
         }
     }
 
-    @Override
-    public void delete(User user) {
-        try (Session session = factory.openSession()) {
-            Transaction transaction = session.beginTransaction();
 
-            session.remove(user);
+    @Override
+    public boolean delete(Long id) {
+        Transaction transaction = null;
+        try (Session session = sessionFactory.openSession()) {
+            transaction = session.beginTransaction();
+
+            int rowsDeleted = session.createQuery("DELETE FROM User u WHERE u.id = :id")
+                    .setParameter("id", id)
+                    .executeUpdate();
+
             transaction.commit();
+            return rowsDeleted > 0;
+        } catch (Exception ex) {
+            if (transaction != null && transaction.isActive()) {
+                transaction.rollback();
+            }
+            throw new RuntimeException("Ошибка при удалении пользователя", ex);
         }
     }
 }
