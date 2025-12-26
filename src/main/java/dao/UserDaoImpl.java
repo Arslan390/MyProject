@@ -1,6 +1,7 @@
 package dao;
 
 import entity.User;
+import exception.UserException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -20,7 +21,7 @@ public class UserDaoImpl implements UserDao<User, Long> {
         try (Session session = sessionFactory.openSession()) {
             return session.createQuery("FROM User", User.class).list();
         } catch (Exception ex) {
-            throw new RuntimeException("Ошибка при получении списка пользователей", ex);
+            throw new UserException("Ошибка при получении списка пользователей", ex);
         }
     }
 
@@ -30,7 +31,7 @@ public class UserDaoImpl implements UserDao<User, Long> {
         try (Session session = sessionFactory.openSession()) {
             return Optional.ofNullable(session.find(User.class, id));
         } catch (Exception ex) {
-            throw new RuntimeException("Ошибка при поиске пользователя по ID: " + id, ex);
+            throw new UserException("Ошибка при поиске пользователя по ID: " + id, ex);
         }
     }
 
@@ -47,7 +48,7 @@ public class UserDaoImpl implements UserDao<User, Long> {
             if (transaction != null && transaction.isActive()) {
                 transaction.rollback();
             }
-            throw new RuntimeException("Ошибка при сохранении пользователя", ex);
+            throw new UserException("Ошибка при сохранении пользователя", ex);
         }
     }
 
@@ -64,7 +65,7 @@ public class UserDaoImpl implements UserDao<User, Long> {
             if (transaction != null && transaction.isActive()) {
                 transaction.rollback();
             }
-            throw new RuntimeException("Ошибка при обновлении пользователя", ex);
+            throw new UserException("Ошибка при обновлении пользователя", ex);
         }
     }
 
@@ -85,7 +86,7 @@ public class UserDaoImpl implements UserDao<User, Long> {
             if (transaction != null && transaction.isActive()) {
                 transaction.rollback();
             }
-            throw new RuntimeException("Ошибка при удалении пользователя", ex);
+            throw new UserException("Ошибка при удалении пользователя", ex);
         }
     }
 }
