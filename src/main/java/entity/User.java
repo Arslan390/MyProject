@@ -1,46 +1,35 @@
 package entity;
 
 import jakarta.persistence.*;
-import lombok.Getter;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
+import org.hibernate.annotations.CreationTimestamp;
 
 import java.time.LocalDateTime;
 
-@Getter
+@Data
 @NoArgsConstructor
-@ToString
+@AllArgsConstructor
+@Builder
 @Entity
 @Table(name = "users")
 public class User {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Setter
-    @Column(nullable = false)
-    private String name;
+    @Column(name = "username", nullable = false, length = 15)
+    private String username;
 
-    @Setter
-    @Column(unique = true, nullable = false)
+    @Column(name = "email", nullable = false, unique = true, length = 25)
     private String email;
 
-    @Setter
-    @Column(nullable = false)
+    @Column(name = "age", nullable = false)
     private Integer age;
 
-    private LocalDateTime createTime;
-
-    @PrePersist
-    protected void onCreate() {
-        createTime = LocalDateTime.now();
-    }
-
-    public User(String name, String email, Integer age) {
-        this.name = name;
-        this.email = email;
-        this.age = age;
-    }
+    @CreationTimestamp
+    @Column(name = "created_at", updatable = false)
+    private LocalDateTime createdAt;
 }

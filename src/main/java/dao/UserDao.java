@@ -1,13 +1,12 @@
 package dao;
 
-import entity.User;
-
 import java.util.List;
+import java.util.Optional;
 
-public interface UserDao {
-    List<User> findAll();
-    User findById(Long id);
-    void save(User user);
-    void update(User user);
-    void delete(User user);
+public interface UserDao<T, ID> {
+    List<T> findAll();
+    Optional<T> findById(ID id);
+    boolean create(T entity);
+    boolean update(T entity);
+    boolean delete(ID id);
 }
