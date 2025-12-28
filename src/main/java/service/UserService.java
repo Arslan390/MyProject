@@ -6,6 +6,7 @@ import exception.UserException;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.function.Predicate;
 
 public record UserService(UserDao<User, Long> userDao) {
 
@@ -51,8 +52,15 @@ public record UserService(UserDao<User, Long> userDao) {
         if (user.getUsername().isEmpty()) {
             throw new UserException("Имя пользователя обязательно");
         }
-        if (user.getEmail().isEmpty()) {
-            throw new UserException("Email пользователя обязателен");
+        Predicate<String> isValidEmail = new Predicate<String>() {
+            private static final String EMAIL_PATTERN = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$";
+            @Override
+            public boolean test(String email) {
+                return email != null && email.matches(EMAIL_PATTERN);
+            }
+        };
+        if (!isValidEmail.test(user.getEmail())) {
+            throw new UserException("Некорректный адрес электронной почты");
         }
     }
 

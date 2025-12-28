@@ -1,0 +1,21 @@
+2025-12-27 21:07:53 INFO  [main] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-12-27 21:07:53 INFO  [main] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-12-27 21:07:53 INFO  [main] o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.3
+2025-12-27 21:07:53 INFO  [main] o.t.d.DockerMachineClientProviderStrategy - docker-machine executable was not found on PATH ([C:\Windows\system32, C:\Windows, C:\Windows\System32\Wbem, C:\Windows\System32\WindowsPowerShell\v1.0\, C:\Windows\System32\OpenSSH\, C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common, C:\java\jdk-22.0.2\bin, C:\Program Files\Git\cmd, C:\Program Files\Git\bin, C:\OSPanel\bin, C:\Users\user\AppData\Local\Microsoft\WindowsApps, C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.0.1\bin, , C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin])
+2025-12-27 21:07:53 ERROR [main] o.t.d.DockerClientProviderStrategy - Could not find a valid Docker environment. Please check configuration. Attempted configurations were:
+As no valid configuration was found, execution cannot continue.
+See https://java.testcontainers.org/on_failure.html for more details.
+2025-12-27 21:48:05 INFO  [main] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-12-27 21:48:05 INFO  [main] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-12-27 21:48:05 INFO  [main] o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.3
+2025-12-27 21:48:06 INFO  [main] o.t.d.DockerMachineClientProviderStrategy - docker-machine executable was not found on PATH ([C:\Windows\system32, C:\Windows, C:\Windows\System32\Wbem, C:\Windows\System32\WindowsPowerShell\v1.0\, C:\Windows\System32\OpenSSH\, C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common, C:\java\jdk-22.0.2\bin, C:\Program Files\Git\cmd, C:\Program Files\Git\bin, , C:\Program Files\Docker\Docker\resources\bin, C:\OSPanel\bin, C:\Users\user\AppData\Local\Microsoft\WindowsApps, C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.0.1\bin, , C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin])
+2025-12-27 21:48:06 ERROR [main] o.t.d.DockerClientProviderStrategy - Could not find a valid Docker environment. Please check configuration. Attempted configurations were:
+As no valid configuration was found, execution cannot continue.
+See https://java.testcontainers.org/on_failure.html for more details.
+2025-12-27 21:53:11 INFO  [main] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-12-27 21:53:11 INFO  [main] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-12-27 21:53:11 INFO  [main] o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.3
+2025-12-27 21:53:11 INFO  [main] o.t.d.DockerMachineClientProviderStrategy - docker-machine executable was not found on PATH ([C:\Windows\system32, C:\Windows, C:\Windows\System32\Wbem, C:\Windows\System32\WindowsPowerShell\v1.0\, C:\Windows\System32\OpenSSH\, C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common, C:\java\jdk-22.0.2\bin, C:\Program Files\Git\cmd, C:\Program Files\Git\bin, , C:\Program Files\Docker\Docker\resources\bin, C:\OSPanel\bin, C:\Users\user\AppData\Local\Microsoft\WindowsApps, C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.0.1\bin, , C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin])
+2025-12-27 21:53:11 ERROR [main] o.t.d.DockerClientProviderStrategy - Could not find a valid Docker environment. Please check configuration. Attempted configurations were:
+As no valid configuration was found, execution cannot continue.
+See https://java.testcontainers.org/on_failure.html for more details.
