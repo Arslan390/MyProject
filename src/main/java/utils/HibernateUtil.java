@@ -9,7 +9,7 @@ import org.hibernate.service.ServiceRegistry;
 
 public class HibernateUtil {
     @Getter
-    private static final SessionFactory sessionFactory;
+    private static  SessionFactory sessionFactory;
 
     static {
         try {

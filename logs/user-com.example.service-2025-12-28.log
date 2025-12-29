@@ -1,0 +1,1220 @@
+2025-12-28 13:21:42 INFO  [main] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-12-28 13:21:42 INFO  [main] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-12-28 13:21:42 INFO  [main] o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.3
+2025-12-28 13:21:42 INFO  [main] o.t.d.DockerMachineClientProviderStrategy - docker-machine executable was not found on PATH ([C:\Windows\system32, C:\Windows, C:\Windows\System32\Wbem, C:\Windows\System32\WindowsPowerShell\v1.0\, C:\Windows\System32\OpenSSH\, C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common, C:\java\jdk-22.0.2\bin, C:\Program Files\Git\cmd, C:\Program Files\Git\bin, C:\Program Files\Docker\Docker\resources\bin, C:\OSPanel\bin, C:\Users\user\AppData\Local\Microsoft\WindowsApps, C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.0.1\bin, , C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin])
+2025-12-28 13:21:42 ERROR [main] o.t.d.DockerClientProviderStrategy - Could not find a valid Docker environment. Please check configuration. Attempted configurations were:
+As no valid configuration was found, execution cannot continue.
+See https://java.testcontainers.org/on_failure.html for more details.
+2025-12-28 13:22:47 INFO  [main] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-12-28 13:22:47 INFO  [main] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-12-28 13:22:47 INFO  [main] o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.3
+2025-12-28 13:22:48 INFO  [main] o.t.d.DockerMachineClientProviderStrategy - docker-machine executable was not found on PATH ([C:\Windows\system32, C:\Windows, C:\Windows\System32\Wbem, C:\Windows\System32\WindowsPowerShell\v1.0\, C:\Windows\System32\OpenSSH\, C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common, C:\java\jdk-22.0.2\bin, C:\Program Files\Git\cmd, C:\Program Files\Git\bin, C:\Program Files\Docker\Docker\resources\bin, C:\OSPanel\bin, C:\Users\user\AppData\Local\Microsoft\WindowsApps, C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.0.1\bin, , C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin])
+2025-12-28 13:22:48 ERROR [main] o.t.d.DockerClientProviderStrategy - Could not find a valid Docker environment. Please check configuration. Attempted configurations were:
+As no valid configuration was found, execution cannot continue.
+See https://java.testcontainers.org/on_failure.html for more details.
+2025-12-28 13:22:56 INFO  [main] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-12-28 13:22:56 INFO  [main] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-12-28 13:22:56 INFO  [main] o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.3
+2025-12-28 13:22:57 INFO  [main] o.t.d.DockerMachineClientProviderStrategy - docker-machine executable was not found on PATH ([C:\Windows\system32, C:\Windows, C:\Windows\System32\Wbem, C:\Windows\System32\WindowsPowerShell\v1.0\, C:\Windows\System32\OpenSSH\, C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common, C:\java\jdk-22.0.2\bin, C:\Program Files\Git\cmd, C:\Program Files\Git\bin, C:\Program Files\Docker\Docker\resources\bin, C:\OSPanel\bin, C:\Users\user\AppData\Local\Microsoft\WindowsApps, C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.0.1\bin, , C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin])
+2025-12-28 13:22:57 ERROR [main] o.t.d.DockerClientProviderStrategy - Could not find a valid Docker environment. Please check configuration. Attempted configurations were:
+As no valid configuration was found, execution cannot continue.
+See https://java.testcontainers.org/on_failure.html for more details.
+2025-12-28 13:35:52 INFO  [main] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-12-28 13:35:52 INFO  [main] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-12-28 13:35:52 INFO  [main] o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.3
+2025-12-28 13:35:53 INFO  [main] o.t.d.DockerMachineClientProviderStrategy - docker-machine executable was not found on PATH ([C:\Windows\system32, C:\Windows, C:\Windows\System32\Wbem, C:\Windows\System32\WindowsPowerShell\v1.0\, C:\Windows\System32\OpenSSH\, C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common, C:\java\jdk-22.0.2\bin, C:\Program Files\Git\cmd, C:\Program Files\Git\bin, , C:\Program Files\Docker\Docker\resources\bin, C:\OSPanel\bin, C:\Users\user\AppData\Local\Microsoft\WindowsApps, C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.0.1\bin, , C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin])
+2025-12-28 13:35:53 ERROR [main] o.t.d.DockerClientProviderStrategy - Could not find a valid Docker environment. Please check configuration. Attempted configurations were:
+As no valid configuration was found, execution cannot continue.
+See https://java.testcontainers.org/on_failure.html for more details.
+2025-12-28 13:58:33 INFO  [main] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-12-28 13:58:33 INFO  [main] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-12-28 13:58:33 INFO  [main] o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.3
+2025-12-28 13:58:33 INFO  [main] o.t.d.DockerMachineClientProviderStrategy - docker-machine executable was not found on PATH ([C:\Windows\system32, C:\Windows, C:\Windows\System32\Wbem, C:\Windows\System32\WindowsPowerShell\v1.0\, C:\Windows\System32\OpenSSH\, C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common, C:\java\jdk-22.0.2\bin, C:\Program Files\Git\cmd, C:\Program Files\Git\bin, , C:\Program Files\Docker\Docker\resources\bin, C:\OSPanel\bin, C:\Users\user\AppData\Local\Microsoft\WindowsApps, C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.0.1\bin, , C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin])
+2025-12-28 13:58:33 ERROR [main] o.t.d.DockerClientProviderStrategy - Could not find a valid Docker environment. Please check configuration. Attempted configurations were:
+As no valid configuration was found, execution cannot continue.
+See https://java.testcontainers.org/on_failure.html for more details.
+2025-12-28 20:17:24 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 20:17:24 WARN  [main] org.hibernate.orm.jdbc - HHH100046: Could not obtain connection to query JDBC database metadata
+java.lang.IllegalStateException: Cannot get a connection as the driver manager is not properly initialized
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProvider.getConnection(DriverManagerConnectionProvider.java:281)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:508)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:48)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:366)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironment(JdbcEnvironmentInitiator.java:143)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:120)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:80)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:133)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:260)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:235)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212)
+	at org.hibernate.service.ServiceRegistry.requireService(ServiceRegistry.java:66)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:50)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:139)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:244)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.convertSqlException(BasicConnectionCreator.java:131)
+	at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:41)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.createConnection(BasicConnectionCreator.java:59)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProvider.buildPool(DriverManagerConnectionProvider.java:124)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:86)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:139)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:244)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212)
+	at org.hibernate.service.ServiceRegistry.requireService(ServiceRegistry.java:66)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:487)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:353)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironment(JdbcEnvironmentInitiator.java:143)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:120)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:80)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:133)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:260)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:235)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:251)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:203)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:131)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:428)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:101)
+	at org.hibernate.boot.MetadataSources.buildMetadata(MetadataSources.java:241)
+	at utils.HibernateUtil.<clinit>(HibernateUtil.java:19)
+	at dao.UserDaoImpl.<clinit>(UserDaoImpl.java:16)
+	at MainApp.<clinit>(MainApp.java:12)
+2025-12-28 20:17:24 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 20:18:43 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 20:18:44 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 20:18:45 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 20:18:45 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 20:18:45 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 20:19:12 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 20:19:12 INFO  [main] service.UserMenuManager - Пользователь ARSLAN создан.
+2025-12-28 20:20:04 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0
+2025-12-28 20:20:04 INFO  [main] service.UserMenuManager - Список пользователей
+
+2025-12-28 20:20:04 INFO  [main] service.UserMenuManager - User(id=1, username=ARSLAN, email=arlan@mail.ru, age=33, createdAt=2025-12-28T20:19:12.410619)
+2025-12-28 21:00:07 INFO  [main] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-12-28 21:00:07 INFO  [main] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-12-28 21:00:07 INFO  [main] o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.3
+2025-12-28 21:00:09 INFO  [main] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-12-28 21:00:09 INFO  [main] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-12-28 21:00:09 INFO  [main] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 29.1.3
+  API Version: 1.52
+  Operating System: Docker Desktop
+  Total Memory: 5820 MB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+2025-12-28 21:00:09 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Pulling docker image: testcontainers/ryuk:0.13.0. Please be patient; this may take some time but only needs to be done once.
+2025-12-28 21:00:12 INFO  [docker-java-stream--2110056260] tc.testcontainers/ryuk:0.13.0 - Starting to pull image
+2025-12-28 21:00:12 INFO  [docker-java-stream--2110056260] tc.testcontainers/ryuk:0.13.0 - Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2025-12-28 21:00:14 INFO  [docker-java-stream--2110056260] tc.testcontainers/ryuk:0.13.0 - Pulling image layers:  1 pending,  1 downloaded,  0 extracted, (0 bytes/? MB)
+2025-12-28 21:00:14 INFO  [docker-java-stream--2110056260] tc.testcontainers/ryuk:0.13.0 - Pulling image layers:  1 pending,  1 downloaded,  1 extracted, (0 bytes/? MB)
+2025-12-28 21:00:44 ERROR [testcontainers-pull-watchdog-1] tc.testcontainers/ryuk:0.13.0 - Docker image pull has not made progress in 30s - aborting pull
+2025-12-28 21:00:44 WARN  [main] tc.testcontainers/ryuk:0.13.0 - Retrying pull for image: testcontainers/ryuk:0.13.0 (84s remaining)
+2025-12-28 21:00:44 INFO  [docker-java-stream--2110056260] tc.testcontainers/ryuk:0.13.0 - Pull complete. 2 layers, pulled in 32s (downloaded 0 bytes at 0 bytes/s)
+2025-12-28 21:00:47 INFO  [docker-java-stream--2110056260] tc.testcontainers/ryuk:0.13.0 - Starting to pull image
+2025-12-28 21:00:47 INFO  [docker-java-stream--2110056260] tc.testcontainers/ryuk:0.13.0 - Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2025-12-28 21:00:48 INFO  [docker-java-stream--2110056260] tc.testcontainers/ryuk:0.13.0 - Pulling image layers:  0 pending,  1 downloaded,  0 extracted, (5 MB/6 MB)
+2025-12-28 21:00:48 INFO  [docker-java-stream--2110056260] tc.testcontainers/ryuk:0.13.0 - Pulling image layers:  0 pending,  1 downloaded,  1 extracted, (5 MB/6 MB)
+2025-12-28 21:00:48 INFO  [docker-java-stream--2110056260] tc.testcontainers/ryuk:0.13.0 - Pull complete. 1 layers, pulled in 1s (downloaded 5 MB at 5 MB/s)
+2025-12-28 21:00:48 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Image testcontainers/ryuk:0.13.0 pull took PT39.6345447S
+2025-12-28 21:00:49 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Creating container for image: testcontainers/ryuk:0.13.0
+2025-12-28 21:00:49 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 is starting: fa322c4fa6ed33cbb517ed7ebe4abfc8ac5c6730c8a05d3d04d45958e082af15
+2025-12-28 21:00:50 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 started in PT1.1629277S
+2025-12-28 21:00:50 INFO  [main] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-12-28 21:00:50 INFO  [main] o.testcontainers.DockerClientFactory - Checking the system...
+2025-12-28 21:00:50 INFO  [main] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-12-28 21:00:50 INFO  [main] tc.postgres:15.3 - Pulling docker image: postgres:15.3. Please be patient; this may take some time but only needs to be done once.
+2025-12-28 21:00:53 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Starting to pull image
+2025-12-28 21:00:53 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2025-12-28 21:00:55 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers: 12 pending,  1 downloaded,  0 extracted, (4 MB/? MB)
+2025-12-28 21:00:55 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers: 11 pending,  2 downloaded,  0 extracted, (4 MB/? MB)
+2025-12-28 21:00:55 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers: 10 pending,  3 downloaded,  0 extracted, (4 MB/? MB)
+2025-12-28 21:00:55 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers:  9 pending,  4 downloaded,  0 extracted, (4 MB/? MB)
+2025-12-28 21:00:55 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers:  8 pending,  5 downloaded,  0 extracted, (6 MB/? MB)
+2025-12-28 21:00:55 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers:  7 pending,  6 downloaded,  0 extracted, (6 MB/? MB)
+2025-12-28 21:00:56 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers:  6 pending,  7 downloaded,  0 extracted, (9 MB/? MB)
+2025-12-28 21:00:57 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers:  5 pending,  8 downloaded,  0 extracted, (24 MB/? MB)
+2025-12-28 21:01:06 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers:  4 pending,  9 downloaded,  0 extracted, (106 MB/? MB)
+2025-12-28 21:01:36 ERROR [testcontainers-pull-watchdog-2] tc.postgres:15.3 - Docker image pull has not made progress in 30s - aborting pull
+2025-12-28 21:01:36 WARN  [main] tc.postgres:15.3 - Retrying pull for image: postgres:15.3 (73s remaining)
+2025-12-28 21:01:36 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pull complete. 13 layers, pulled in 43s (downloaded 106 MB at 2 MB/s)
+2025-12-28 21:01:37 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Starting to pull image
+2025-12-28 21:01:37 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2025-12-28 21:01:39 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers: 12 pending,  1 downloaded,  0 extracted, (1 MB/? MB)
+2025-12-28 21:01:40 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers: 11 pending,  2 downloaded,  0 extracted, (7 MB/? MB)
+2025-12-28 21:01:42 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers: 10 pending,  3 downloaded,  0 extracted, (32 MB/? MB)
+2025-12-28 21:01:44 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers: 10 pending,  3 downloaded,  1 extracted, (32 MB/? MB)
+2025-12-28 21:01:44 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers: 10 pending,  3 downloaded,  2 extracted, (32 MB/? MB)
+2025-12-28 21:01:44 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers: 10 pending,  3 downloaded,  3 extracted, (32 MB/? MB)
+2025-12-28 21:02:14 ERROR [testcontainers-pull-watchdog-3] tc.postgres:15.3 - Docker image pull has not made progress in 30s - aborting pull
+2025-12-28 21:02:14 WARN  [main] tc.postgres:15.3 - Retrying pull for image: postgres:15.3 (35s remaining)
+2025-12-28 21:02:14 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pull complete. 13 layers, pulled in 36s (downloaded 32 MB at 910 KB/s)
+2025-12-28 21:02:15 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Starting to pull image
+2025-12-28 21:02:15 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2025-12-28 21:02:46 ERROR [testcontainers-pull-watchdog-4] tc.postgres:15.3 - Docker image pull has not made progress in 30s - aborting pull
+2025-12-28 21:02:46 WARN  [main] tc.postgres:15.3 - Retrying pull for image: postgres:15.3 (4s remaining)
+2025-12-28 21:02:47 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Starting to pull image
+2025-12-28 21:02:47 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2025-12-28 21:03:18 ERROR [testcontainers-pull-watchdog-5] tc.postgres:15.3 - Docker image pull has not made progress in 30s - aborting pull
+2025-12-28 21:03:18 WARN  [main] tc.postgres:15.3 - Retrying pull for image: postgres:15.3 (-28s remaining)
+2025-12-28 21:03:18 INFO  [main] tc.postgres:15.3 - Pulling docker image: postgres:15.3. Please be patient; this may take some time but only needs to be done once.
+2025-12-28 21:03:20 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Starting to pull image
+2025-12-28 21:03:20 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2025-12-28 21:03:21 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers:  9 pending,  1 downloaded,  0 extracted, (1 MB/? MB)
+2025-12-28 21:03:21 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers:  9 pending,  1 downloaded,  1 extracted, (1 MB/? MB)
+2025-12-28 21:03:22 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers:  9 pending,  1 downloaded,  2 extracted, (1 MB/? MB)
+2025-12-28 21:03:22 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers:  9 pending,  1 downloaded,  3 extracted, (1 MB/? MB)
+2025-12-28 21:03:22 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers:  9 pending,  1 downloaded,  4 extracted, (1 MB/? MB)
+2025-12-28 21:03:22 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers:  9 pending,  1 downloaded,  5 extracted, (1 MB/? MB)
+2025-12-28 21:03:25 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers:  9 pending,  1 downloaded,  6 extracted, (1 MB/? MB)
+2025-12-28 21:03:25 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers:  9 pending,  1 downloaded,  7 extracted, (1 MB/? MB)
+2025-12-28 21:03:25 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers:  9 pending,  1 downloaded,  8 extracted, (1 MB/? MB)
+2025-12-28 21:03:25 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers:  9 pending,  1 downloaded,  9 extracted, (1 MB/? MB)
+2025-12-28 21:03:25 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pulling image layers:  9 pending,  1 downloaded, 10 extracted, (1 MB/? MB)
+2025-12-28 21:03:25 INFO  [docker-java-stream--1574354634] tc.postgres:15.3 - Pull complete. 10 layers, pulled in 5s (downloaded 1 MB at 204 KB/s)
+2025-12-28 21:03:25 INFO  [main] tc.postgres:15.3 - Image postgres:15.3 pull took PT6.4955429S
+2025-12-28 21:09:50 INFO  [main] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-12-28 21:09:50 INFO  [main] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-12-28 21:09:50 INFO  [main] o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.3
+2025-12-28 21:09:50 INFO  [main] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-12-28 21:09:52 INFO  [main] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-12-28 21:09:52 INFO  [main] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-12-28 21:09:52 INFO  [main] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 29.1.3
+  API Version: 1.52
+  Operating System: Docker Desktop
+  Total Memory: 5820 MB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+2025-12-28 21:09:52 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Creating container for image: testcontainers/ryuk:0.13.0
+2025-12-28 21:09:52 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 is starting: 85f92ac2d1467e2eb8c7a68ab86c377cc73e0b05dde1e2deacfd20c2b37cec2f
+2025-12-28 21:09:53 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 started in PT1.2599543S
+2025-12-28 21:09:53 INFO  [main] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-12-28 21:09:53 INFO  [main] o.testcontainers.DockerClientFactory - Checking the system...
+2025-12-28 21:09:53 INFO  [main] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-12-28 21:09:53 INFO  [main] tc.postgres:18 - Pulling docker image: postgres:18. Please be patient; this may take some time but only needs to be done once.
+2025-12-28 21:09:56 INFO  [docker-java-stream--582751564] tc.postgres:18 - Starting to pull image
+2025-12-28 21:09:56 INFO  [docker-java-stream--582751564] tc.postgres:18 - Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2025-12-28 21:09:58 INFO  [docker-java-stream--582751564] tc.postgres:18 - Pulling image layers: 13 pending,  1 downloaded,  0 extracted, (51 KB/? MB)
+2025-12-28 21:09:59 INFO  [docker-java-stream--582751564] tc.postgres:18 - Pulling image layers: 13 pending,  2 downloaded,  0 extracted, (1 MB/? MB)
+2025-12-28 21:09:59 INFO  [docker-java-stream--582751564] tc.postgres:18 - Pulling image layers: 12 pending,  3 downloaded,  0 extracted, (1 MB/? MB)
+2025-12-28 21:09:59 INFO  [docker-java-stream--582751564] tc.postgres:18 - Pulling image layers: 11 pending,  4 downloaded,  0 extracted, (2 MB/? MB)
+2025-12-28 21:09:59 INFO  [docker-java-stream--582751564] tc.postgres:18 - Pulling image layers: 10 pending,  5 downloaded,  0 extracted, (2 MB/? MB)
+2025-12-28 21:09:59 INFO  [docker-java-stream--582751564] tc.postgres:18 - Pulling image layers:  9 pending,  6 downloaded,  0 extracted, (4 MB/? MB)
+2025-12-28 21:09:59 INFO  [docker-java-stream--582751564] tc.postgres:18 - Pulling image layers:  8 pending,  7 downloaded,  0 extracted, (4 MB/? MB)
+2025-12-28 21:09:59 INFO  [docker-java-stream--582751564] tc.postgres:18 - Pulling image layers:  7 pending,  8 downloaded,  0 extracted, (5 MB/? MB)
+2025-12-28 21:10:00 INFO  [docker-java-stream--582751564] tc.postgres:18 - Pulling image layers:  6 pending,  9 downloaded,  0 extracted, (5 MB/? MB)
+2025-12-28 21:10:00 INFO  [docker-java-stream--582751564] tc.postgres:18 - Pulling image layers:  5 pending, 10 downloaded,  0 extracted, (6 MB/? MB)
+2025-12-28 21:10:30 ERROR [testcontainers-pull-watchdog-1] tc.postgres:18 - Docker image pull has not made progress in 30s - aborting pull
+2025-12-28 21:10:30 WARN  [main] tc.postgres:18 - Retrying pull for image: postgres:18 (83s remaining)
+2025-12-28 21:10:30 INFO  [docker-java-stream--582751564] tc.postgres:18 - Pull complete. 15 layers, pulled in 34s (downloaded 6 MB at 188 KB/s)
+2025-12-28 21:10:34 INFO  [docker-java-stream--582751564] tc.postgres:18 - Starting to pull image
+2025-12-28 21:10:34 INFO  [docker-java-stream--582751564] tc.postgres:18 - Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2025-12-28 21:11:04 ERROR [testcontainers-pull-watchdog-2] tc.postgres:18 - Docker image pull has not made progress in 30s - aborting pull
+2025-12-28 21:11:04 WARN  [main] tc.postgres:18 - Retrying pull for image: postgres:18 (49s remaining)
+2025-12-28 21:11:05 INFO  [docker-java-stream--582751564] tc.postgres:18 - Starting to pull image
+2025-12-28 21:11:05 INFO  [docker-java-stream--582751564] tc.postgres:18 - Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2025-12-28 21:11:35 ERROR [testcontainers-pull-watchdog-3] tc.postgres:18 - Docker image pull has not made progress in 30s - aborting pull
+2025-12-28 21:11:35 WARN  [main] tc.postgres:18 - Retrying pull for image: postgres:18 (17s remaining)
+2025-12-28 21:11:37 INFO  [docker-java-stream--582751564] tc.postgres:18 - Starting to pull image
+2025-12-28 21:11:37 INFO  [docker-java-stream--582751564] tc.postgres:18 - Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2025-12-28 21:12:08 ERROR [testcontainers-pull-watchdog-4] tc.postgres:18 - Docker image pull has not made progress in 30s - aborting pull
+2025-12-28 21:12:08 WARN  [main] tc.postgres:18 - Retrying pull for image: postgres:18 (-15s remaining)
+2025-12-28 21:12:09 INFO  [main] tc.postgres:18 - Pulling docker image: postgres:18. Please be patient; this may take some time but only needs to be done once.
+2025-12-28 21:12:10 INFO  [docker-java-stream--582751564] tc.postgres:18 - Starting to pull image
+2025-12-28 21:12:10 INFO  [docker-java-stream--582751564] tc.postgres:18 - Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2025-12-28 21:12:40 ERROR [testcontainers-pull-watchdog-5] tc.postgres:18 - Docker image pull has not made progress in 30s - aborting pull
+2025-12-28 21:12:40 WARN  [main] tc.postgres:18 - Retrying pull for image: postgres:18 (88s remaining)
+2025-12-28 21:12:41 INFO  [docker-java-stream--582751564] tc.postgres:18 - Starting to pull image
+2025-12-28 21:12:41 INFO  [docker-java-stream--582751564] tc.postgres:18 - Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2025-12-28 21:13:12 ERROR [testcontainers-pull-watchdog-6] tc.postgres:18 - Docker image pull has not made progress in 30s - aborting pull
+2025-12-28 21:13:12 WARN  [main] tc.postgres:18 - Retrying pull for image: postgres:18 (56s remaining)
+2025-12-28 21:13:13 INFO  [docker-java-stream--582751564] tc.postgres:18 - Starting to pull image
+2025-12-28 21:13:13 INFO  [docker-java-stream--582751564] tc.postgres:18 - Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2025-12-28 21:13:44 ERROR [testcontainers-pull-watchdog-7] tc.postgres:18 - Docker image pull has not made progress in 30s - aborting pull
+2025-12-28 21:13:44 WARN  [main] tc.postgres:18 - Retrying pull for image: postgres:18 (25s remaining)
+2025-12-28 21:13:45 INFO  [docker-java-stream--582751564] tc.postgres:18 - Starting to pull image
+2025-12-28 21:13:45 INFO  [docker-java-stream--582751564] tc.postgres:18 - Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2025-12-28 21:14:15 ERROR [testcontainers-pull-watchdog-8] tc.postgres:18 - Docker image pull has not made progress in 30s - aborting pull
+2025-12-28 21:14:15 WARN  [main] tc.postgres:18 - Retrying pull for image: postgres:18 (-7s remaining)
+2025-12-28 21:16:43 INFO  [main] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-12-28 21:16:43 INFO  [main] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-12-28 21:16:43 INFO  [main] o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.3
+2025-12-28 21:16:44 INFO  [main] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-12-28 21:16:44 INFO  [main] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-12-28 21:16:44 INFO  [main] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-12-28 21:16:45 INFO  [main] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 29.1.3
+  API Version: 1.52
+  Operating System: Docker Desktop
+  Total Memory: 5820 MB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+2025-12-28 21:16:45 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Creating container for image: testcontainers/ryuk:0.13.0
+2025-12-28 21:16:45 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 is starting: ba9edf5d509dd154403e5f04d934fc3dd604150a8e8d6f343d97b80034045722
+2025-12-28 21:16:46 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 started in PT1.0546017S
+2025-12-28 21:16:46 INFO  [main] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-12-28 21:16:46 INFO  [main] o.testcontainers.DockerClientFactory - Checking the system...
+2025-12-28 21:16:46 INFO  [main] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-12-28 21:16:46 INFO  [main] tc.postgres:latest - Pulling docker image: postgres:latest. Please be patient; this may take some time but only needs to be done once.
+2025-12-28 21:16:48 INFO  [docker-java-stream--61184620] tc.postgres:latest - Starting to pull image
+2025-12-28 21:16:48 INFO  [docker-java-stream--61184620] tc.postgres:latest - Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2025-12-28 21:17:18 ERROR [testcontainers-pull-watchdog-1] tc.postgres:latest - Docker image pull has not made progress in 30s - aborting pull
+2025-12-28 21:17:18 WARN  [main] tc.postgres:latest - Retrying pull for image: postgres:latest (87s remaining)
+2025-12-28 21:17:19 INFO  [docker-java-stream--61184620] tc.postgres:latest - Starting to pull image
+2025-12-28 21:17:19 INFO  [docker-java-stream--61184620] tc.postgres:latest - Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2025-12-28 21:17:27 INFO  [main] tc.postgres:latest - Image postgres:latest pull took PT40.9619135S
+2025-12-28 21:17:27 INFO  [main] tc.postgres:latest - Creating container for image: postgres:latest
+2025-12-28 21:17:28 INFO  [main] tc.postgres:latest - Container postgres:latest is starting: df3a156eb994a7f0c06bb6619ac68013af4f4fb093989082dce907240c5f1aa2
+2025-12-28 21:17:30 INFO  [main] tc.postgres:latest - Container postgres:latest started in PT3.0658183S
+2025-12-28 21:17:30 INFO  [main] tc.postgres:latest - Container is started (JDBC URL: jdbc:postgresql://localhost:59023/test_db?loggerLevel=OFF)
+2025-12-28 21:17:31 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 21:17:31 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 21:17:33 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:17:33 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:17:33 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 21:17:33 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 21:17:34 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 21:17:34 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:17:34 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:17:34 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 21:17:34 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 21:17:34 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 21:17:34 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:17:34 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:26:32 INFO  [main] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-12-28 21:26:32 INFO  [main] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-12-28 21:26:32 INFO  [main] o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.3
+2025-12-28 21:26:32 INFO  [main] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-12-28 21:26:33 INFO  [main] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-12-28 21:26:33 INFO  [main] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-12-28 21:26:33 INFO  [main] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 29.1.3
+  API Version: 1.52
+  Operating System: Docker Desktop
+  Total Memory: 5820 MB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+2025-12-28 21:26:33 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Creating container for image: testcontainers/ryuk:0.13.0
+2025-12-28 21:26:33 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 is starting: f60b4aa807633cd606b705f5d313d962d325b9a19fb0da419d510c7a4d793b0e
+2025-12-28 21:26:34 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 started in PT1.0309793S
+2025-12-28 21:26:34 INFO  [main] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-12-28 21:26:34 INFO  [main] o.testcontainers.DockerClientFactory - Checking the system...
+2025-12-28 21:26:34 INFO  [main] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-12-28 21:26:34 INFO  [main] tc.postgres:latest - Creating container for image: postgres:latest
+2025-12-28 21:26:34 INFO  [main] tc.postgres:latest - Container postgres:latest is starting: 1ded4d1fbea724d79a0e3c16124d670e48a3b1fdc26ade614ed4fc21c5f94c2e
+2025-12-28 21:26:36 INFO  [main] tc.postgres:latest - Container postgres:latest started in PT2.3578502S
+2025-12-28 21:26:36 INFO  [main] tc.postgres:latest - Container is started (JDBC URL: jdbc:postgresql://localhost:60941/test_db?loggerLevel=OFF)
+2025-12-28 21:26:37 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 21:26:37 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 21:26:38 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:26:38 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:26:38 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 21:26:39 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 21:26:39 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 21:26:39 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:26:39 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:26:39 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 21:26:39 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 21:26:39 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 21:26:39 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:26:39 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:35:21 INFO  [main] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-12-28 21:35:21 INFO  [main] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-12-28 21:35:21 INFO  [main] o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.3
+2025-12-28 21:35:22 INFO  [main] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-12-28 21:35:22 INFO  [main] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-12-28 21:35:22 INFO  [main] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-12-28 21:35:22 INFO  [main] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 29.1.3
+  API Version: 1.52
+  Operating System: Docker Desktop
+  Total Memory: 5820 MB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+2025-12-28 21:35:22 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Creating container for image: testcontainers/ryuk:0.13.0
+2025-12-28 21:35:23 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 is starting: 08c3ba275e9129bfd092f52d380e73c8b60a32cfa674a25d6c0cbd3047b54213
+2025-12-28 21:35:24 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 started in PT1.0937301S
+2025-12-28 21:35:24 INFO  [main] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-12-28 21:35:24 INFO  [main] o.testcontainers.DockerClientFactory - Checking the system...
+2025-12-28 21:35:24 INFO  [main] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-12-28 21:35:24 INFO  [main] tc.postgres:latest - Creating container for image: postgres:latest
+2025-12-28 21:35:24 INFO  [main] tc.postgres:latest - Container postgres:latest is starting: c7cb1e2755275d09af64075c2c5f07f0feeda70dfb6166349311bdb4a8d9ff02
+2025-12-28 21:35:26 INFO  [main] tc.postgres:latest - Container postgres:latest started in PT2.1531913S
+2025-12-28 21:35:26 INFO  [main] tc.postgres:latest - Container is started (JDBC URL: jdbc:postgresql://localhost:62411/test_db?loggerLevel=OFF)
+2025-12-28 21:35:26 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 21:35:26 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 21:35:28 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:35:28 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:35:28 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 21:35:29 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 21:35:29 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 21:35:29 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:35:29 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:35:29 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 21:35:29 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 21:35:29 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 21:35:29 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:35:29 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:55:37 INFO  [main] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-12-28 21:55:37 INFO  [main] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-12-28 21:55:37 INFO  [main] o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.3
+2025-12-28 21:55:38 INFO  [main] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-12-28 21:55:39 INFO  [main] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-12-28 21:55:39 INFO  [main] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-12-28 21:55:39 INFO  [main] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 29.1.3
+  API Version: 1.52
+  Operating System: Docker Desktop
+  Total Memory: 5820 MB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+2025-12-28 21:55:39 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Creating container for image: testcontainers/ryuk:0.13.0
+2025-12-28 21:55:39 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 is starting: 70fc3beca43457f96d051e967892ef75f8f34e632abaa2370fc65fc6dfffe02f
+2025-12-28 21:55:40 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 started in PT1.2670065S
+2025-12-28 21:55:40 INFO  [main] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-12-28 21:55:40 INFO  [main] o.testcontainers.DockerClientFactory - Checking the system...
+2025-12-28 21:55:40 INFO  [main] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-12-28 21:55:40 INFO  [main] tc.postgres:latest - Creating container for image: postgres:latest
+2025-12-28 21:55:41 INFO  [main] tc.postgres:latest - Container postgres:latest is starting: 31ffa40ce83325da1230967c4d56d03b2bf93c4e3b3ac6faeb16b580cabb8a41
+2025-12-28 21:55:43 INFO  [main] tc.postgres:latest - Container postgres:latest started in PT2.5330565S
+2025-12-28 21:55:43 INFO  [main] tc.postgres:latest - Container is started (JDBC URL: jdbc:postgresql://localhost:50295/test_db?loggerLevel=OFF)
+2025-12-28 21:55:44 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 21:55:44 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 21:55:46 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:55:46 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:55:46 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 21:55:46 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 21:55:46 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 21:55:46 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:55:46 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:55:46 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 21:55:46 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 21:55:46 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 21:55:46 DEBUG [main] org.hibernate.SQL - update users set age=?,email=?,username=? where id=?
+2025-12-28 21:55:46 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 21:55:46 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:55:46 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:55:47 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 21:55:47 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 21:55:47 WARN  [main] org.hibernate.orm.jdbc.error - HHH000247: ErrorCode: 0, SQLState: 23505
+2025-12-28 21:55:47 WARN  [main] org.hibernate.orm.jdbc.error - ОШИБКА: duplicate key value violates unique constraint "users_email_key"
+  Подробности: Key (email)=(ismailov@yandex.ru) already exists.
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:55:47 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 21:55:47 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:55:47 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 21:55:47 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 21:55:47 WARN  [main] org.hibernate.orm.jdbc.error - HHH000247: ErrorCode: 0, SQLState: 23505
+2025-12-28 21:55:47 WARN  [main] org.hibernate.orm.jdbc.error - ОШИБКА: duplicate key value violates unique constraint "users_email_key"
+  Подробности: Key (email)=(ismailov@yandex.ru) already exists.
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:55:47 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 21:55:47 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 21:55:47 WARN  [main] org.hibernate.orm.jdbc.error - HHH000247: ErrorCode: 0, SQLState: 23505
+2025-12-28 21:55:47 WARN  [main] org.hibernate.orm.jdbc.error - ОШИБКА: duplicate key value violates unique constraint "users_email_key"
+  Подробности: Key (email)=(ismailov@yandex.ru) already exists.
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:55:47 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 21:55:47 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 21:55:47 WARN  [main] org.hibernate.orm.jdbc.error - HHH000247: ErrorCode: 0, SQLState: 23505
+2025-12-28 21:55:47 WARN  [main] org.hibernate.orm.jdbc.error - ОШИБКА: duplicate key value violates unique constraint "users_email_key"
+  Подробности: Key (email)=(ismailov@yandex.ru) already exists.
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:55:47 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:56:50 INFO  [main] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-12-28 21:56:50 INFO  [main] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-12-28 21:56:50 INFO  [main] o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.3
+2025-12-28 21:56:50 INFO  [main] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-12-28 21:56:51 INFO  [main] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-12-28 21:56:51 INFO  [main] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-12-28 21:56:51 INFO  [main] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 29.1.3
+  API Version: 1.52
+  Operating System: Docker Desktop
+  Total Memory: 5820 MB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+2025-12-28 21:56:51 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Creating container for image: testcontainers/ryuk:0.13.0
+2025-12-28 21:56:51 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 is starting: aa3ec25692e5ee12d956df8277d89e623de50809a17743a1e5564c2ef40b2452
+2025-12-28 21:56:52 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 started in PT1.1636816S
+2025-12-28 21:56:52 INFO  [main] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-12-28 21:56:52 INFO  [main] o.testcontainers.DockerClientFactory - Checking the system...
+2025-12-28 21:56:52 INFO  [main] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-12-28 21:56:52 INFO  [main] tc.postgres:latest - Creating container for image: postgres:latest
+2025-12-28 21:56:52 INFO  [main] tc.postgres:latest - Container postgres:latest is starting: 1ba58c6e956214939ea8b003a544ab0d1a162d3b9dc0cd634101658d4b642cfe
+2025-12-28 21:56:55 INFO  [main] tc.postgres:latest - Container postgres:latest started in PT2.500796S
+2025-12-28 21:56:55 INFO  [main] tc.postgres:latest - Container is started (JDBC URL: jdbc:postgresql://localhost:59622/test_db?loggerLevel=OFF)
+2025-12-28 21:56:55 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 21:56:56 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 21:56:57 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:56:57 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:56:57 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 21:56:57 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 21:56:57 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 21:56:57 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:56:57 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:56:58 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 21:56:58 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 21:56:58 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 21:56:58 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:56:58 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:57:13 INFO  [main] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-12-28 21:57:13 INFO  [main] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-12-28 21:57:13 INFO  [main] o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.3
+2025-12-28 21:57:13 INFO  [main] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-12-28 21:57:14 INFO  [main] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-12-28 21:57:14 INFO  [main] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-12-28 21:57:14 INFO  [main] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 29.1.3
+  API Version: 1.52
+  Operating System: Docker Desktop
+  Total Memory: 5820 MB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+2025-12-28 21:57:14 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Creating container for image: testcontainers/ryuk:0.13.0
+2025-12-28 21:57:15 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 is starting: 0a4a2389ef4e2cf8f259098fc745869c5f997a217b069293833eea0adbd9324e
+2025-12-28 21:57:15 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 started in PT1.1026094S
+2025-12-28 21:57:15 INFO  [main] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-12-28 21:57:15 INFO  [main] o.testcontainers.DockerClientFactory - Checking the system...
+2025-12-28 21:57:15 INFO  [main] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-12-28 21:57:15 INFO  [main] tc.postgres:latest - Creating container for image: postgres:latest
+2025-12-28 21:57:16 INFO  [main] tc.postgres:latest - Container postgres:latest is starting: 32ef238c4468939bc61f674a6ddcd6c328dba9d352a531a8c39086395274ce40
+2025-12-28 21:57:18 INFO  [main] tc.postgres:latest - Container postgres:latest started in PT2.3913472S
+2025-12-28 21:57:18 INFO  [main] tc.postgres:latest - Container is started (JDBC URL: jdbc:postgresql://localhost:59638/test_db?loggerLevel=OFF)
+2025-12-28 21:57:18 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 21:57:19 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 21:57:20 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:57:20 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:57:20 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 21:57:20 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 21:57:21 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 21:57:21 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:57:21 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:57:21 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 21:57:21 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 21:57:21 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 21:57:21 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0
+2025-12-28 21:57:21 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:57:21 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:57:30 INFO  [main] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-12-28 21:57:30 INFO  [main] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-12-28 21:57:30 INFO  [main] o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.3
+2025-12-28 21:57:31 INFO  [main] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-12-28 21:57:31 INFO  [main] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-12-28 21:57:31 INFO  [main] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-12-28 21:57:31 INFO  [main] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 29.1.3
+  API Version: 1.52
+  Operating System: Docker Desktop
+  Total Memory: 5820 MB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+2025-12-28 21:57:31 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Creating container for image: testcontainers/ryuk:0.13.0
+2025-12-28 21:57:32 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 is starting: ebfe0271cd4d9fabb658a4fc72aedd665d1e8f85b8a5e5d5b8e5eb0204aa747d
+2025-12-28 21:57:33 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 started in PT1.3140581S
+2025-12-28 21:57:33 INFO  [main] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-12-28 21:57:33 INFO  [main] o.testcontainers.DockerClientFactory - Checking the system...
+2025-12-28 21:57:33 INFO  [main] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-12-28 21:57:33 INFO  [main] tc.postgres:latest - Creating container for image: postgres:latest
+2025-12-28 21:57:33 INFO  [main] tc.postgres:latest - Container postgres:latest is starting: c36488974f5e487213f9157eb5e98f772fe2eec6a3574244db59cc29d2962ac9
+2025-12-28 21:57:35 INFO  [main] tc.postgres:latest - Container postgres:latest started in PT2.1535886S
+2025-12-28 21:57:35 INFO  [main] tc.postgres:latest - Container is started (JDBC URL: jdbc:postgresql://localhost:59652/test_db?loggerLevel=OFF)
+2025-12-28 21:57:36 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 21:57:36 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 21:57:37 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:57:37 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:57:37 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 21:57:37 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 21:57:38 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 21:57:38 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:57:38 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:57:38 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 21:57:38 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 21:57:38 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 21:57:38 DEBUG [main] org.hibernate.SQL - update users set age=?,email=?,username=? where id=?
+2025-12-28 21:57:38 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 21:57:38 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:57:38 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:57:50 INFO  [main] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-12-28 21:57:50 INFO  [main] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-12-28 21:57:50 INFO  [main] o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.3
+2025-12-28 21:57:50 INFO  [main] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-12-28 21:57:51 INFO  [main] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-12-28 21:57:51 INFO  [main] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-12-28 21:57:51 INFO  [main] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 29.1.3
+  API Version: 1.52
+  Operating System: Docker Desktop
+  Total Memory: 5820 MB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+2025-12-28 21:57:51 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Creating container for image: testcontainers/ryuk:0.13.0
+2025-12-28 21:57:51 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 is starting: db4263168f2ee202867de82ddb2cfb0fa3621e36632f615d1e7524ac4d511a56
+2025-12-28 21:57:52 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 started in PT0.9258433S
+2025-12-28 21:57:52 INFO  [main] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-12-28 21:57:52 INFO  [main] o.testcontainers.DockerClientFactory - Checking the system...
+2025-12-28 21:57:52 INFO  [main] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-12-28 21:57:52 INFO  [main] tc.postgres:latest - Creating container for image: postgres:latest
+2025-12-28 21:57:52 INFO  [main] tc.postgres:latest - Container postgres:latest is starting: 662a1980dba901b95836fd130e74ea350d18094e831993451d9c63c42e337438
+2025-12-28 21:57:54 INFO  [main] tc.postgres:latest - Container postgres:latest started in PT2.1443751S
+2025-12-28 21:57:54 INFO  [main] tc.postgres:latest - Container is started (JDBC URL: jdbc:postgresql://localhost:59664/test_db?loggerLevel=OFF)
+2025-12-28 21:57:55 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 21:57:55 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 21:57:56 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:57:56 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:57:56 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 21:57:57 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 21:57:57 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 21:57:57 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:57:57 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:57:57 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 21:57:57 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 21:57:57 DEBUG [main] org.hibernate.SQL - delete from users u1_0 where u1_0.id=?
+2025-12-28 21:57:57 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 21:57:57 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:57:57 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:58:12 INFO  [main] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-12-28 21:58:12 INFO  [main] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-12-28 21:58:12 INFO  [main] o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.3
+2025-12-28 21:58:12 INFO  [main] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-12-28 21:58:13 INFO  [main] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-12-28 21:58:13 INFO  [main] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-12-28 21:58:13 INFO  [main] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 29.1.3
+  API Version: 1.52
+  Operating System: Docker Desktop
+  Total Memory: 5820 MB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+2025-12-28 21:58:13 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Creating container for image: testcontainers/ryuk:0.13.0
+2025-12-28 21:58:13 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 is starting: 253928e0abd8da367de12892ebaf8f667171b6dc71ac2edc3dca84d6dd7bbf5a
+2025-12-28 21:58:14 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 started in PT0.9445701S
+2025-12-28 21:58:14 INFO  [main] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-12-28 21:58:14 INFO  [main] o.testcontainers.DockerClientFactory - Checking the system...
+2025-12-28 21:58:14 INFO  [main] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-12-28 21:58:14 INFO  [main] tc.postgres:latest - Creating container for image: postgres:latest
+2025-12-28 21:58:14 INFO  [main] tc.postgres:latest - Container postgres:latest is starting: 5d48040a58d952e12df10e0ac94543ea6001112d14ed1de3bf01cedb98cea2ae
+2025-12-28 21:58:16 INFO  [main] tc.postgres:latest - Container postgres:latest started in PT2.1743786S
+2025-12-28 21:58:16 INFO  [main] tc.postgres:latest - Container is started (JDBC URL: jdbc:postgresql://localhost:59678/test_db?loggerLevel=OFF)
+2025-12-28 21:58:17 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 21:58:17 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 21:58:19 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:58:19 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:58:19 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 21:58:19 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 21:58:19 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 21:58:19 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:58:19 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 21:58:19 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 21:58:19 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 21:58:19 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 21:58:19 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 21:58:19 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:00:04 INFO  [main] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-12-28 22:00:04 INFO  [main] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-12-28 22:00:04 INFO  [main] o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.3
+2025-12-28 22:00:05 INFO  [main] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-12-28 22:00:05 INFO  [main] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-12-28 22:00:05 INFO  [main] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-12-28 22:00:05 INFO  [main] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 29.1.3
+  API Version: 1.52
+  Operating System: Docker Desktop
+  Total Memory: 5820 MB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+2025-12-28 22:00:05 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Creating container for image: testcontainers/ryuk:0.13.0
+2025-12-28 22:00:06 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 is starting: 756467578acb020055b26987a38b106969f5f7ebba709fef8296c6ee2ea0c9f0
+2025-12-28 22:00:06 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 started in PT1.0874448S
+2025-12-28 22:00:07 INFO  [main] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-12-28 22:00:07 INFO  [main] o.testcontainers.DockerClientFactory - Checking the system...
+2025-12-28 22:00:07 INFO  [main] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-12-28 22:00:07 INFO  [main] tc.postgres:latest - Creating container for image: postgres:latest
+2025-12-28 22:00:07 INFO  [main] tc.postgres:latest - Container postgres:latest is starting: b19a4b532a61fc9c1c0a7f53ee7702be1a33c4e23828cc67654839c48d8a4a94
+2025-12-28 22:00:09 INFO  [main] tc.postgres:latest - Container postgres:latest started in PT2.4276683S
+2025-12-28 22:00:09 INFO  [main] tc.postgres:latest - Container is started (JDBC URL: jdbc:postgresql://localhost:51174/test_db?loggerLevel=OFF)
+2025-12-28 22:00:10 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:00:10 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:00:11 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:00:11 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:00:11 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:00:12 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:00:12 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:00:12 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:00:12 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:00:12 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:00:12 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:00:12 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:00:12 DEBUG [main] org.hibernate.SQL - update users set age=?,email=?,username=? where id=?
+2025-12-28 22:00:12 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:00:12 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:00:12 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:00:54 INFO  [main] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-12-28 22:00:54 INFO  [main] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-12-28 22:00:54 INFO  [main] o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.3
+2025-12-28 22:00:54 INFO  [main] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-12-28 22:00:55 INFO  [main] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-12-28 22:00:55 INFO  [main] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-12-28 22:00:55 INFO  [main] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 29.1.3
+  API Version: 1.52
+  Operating System: Docker Desktop
+  Total Memory: 5820 MB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+2025-12-28 22:00:55 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Creating container for image: testcontainers/ryuk:0.13.0
+2025-12-28 22:00:56 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 is starting: f13b299ad8e513c77806a9628bac636e2ff1ee38f36c06a67d69c74ba479b8b7
+2025-12-28 22:00:56 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 started in PT1.173761S
+2025-12-28 22:00:56 INFO  [main] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-12-28 22:00:56 INFO  [main] o.testcontainers.DockerClientFactory - Checking the system...
+2025-12-28 22:00:56 INFO  [main] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-12-28 22:00:56 INFO  [main] tc.postgres:latest - Creating container for image: postgres:latest
+2025-12-28 22:00:57 INFO  [main] tc.postgres:latest - Container postgres:latest is starting: 2c7df9097c42bdab4d151b809ae7236f8360b2ae2bd5912d74a836753c355cdd
+2025-12-28 22:00:59 INFO  [main] tc.postgres:latest - Container postgres:latest started in PT2.3248634S
+2025-12-28 22:00:59 INFO  [main] tc.postgres:latest - Container is started (JDBC URL: jdbc:postgresql://localhost:49273/test_db?loggerLevel=OFF)
+2025-12-28 22:01:00 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:01:00 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:01:02 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:01:02 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:01:02 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:01:02 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:01:02 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:01:02 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:01:02 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:01:02 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:01:02 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:01:02 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:01:02 DEBUG [main] org.hibernate.SQL - update users set age=?,email=?,username=? where id=?
+2025-12-28 22:01:02 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:01:02 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:01:02 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:01:02 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:01:03 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:01:03 WARN  [main] org.hibernate.orm.jdbc.error - HHH000247: ErrorCode: 0, SQLState: 23505
+2025-12-28 22:01:03 WARN  [main] org.hibernate.orm.jdbc.error - ОШИБКА: duplicate key value violates unique constraint "users_email_key"
+  Подробности: Key (email)=(ismailov@yandex.ru) already exists.
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:01:03 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:01:03 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:01:03 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:01:03 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:01:03 WARN  [main] org.hibernate.orm.jdbc.error - HHH000247: ErrorCode: 0, SQLState: 23505
+2025-12-28 22:01:03 WARN  [main] org.hibernate.orm.jdbc.error - ОШИБКА: duplicate key value violates unique constraint "users_email_key"
+  Подробности: Key (email)=(ismailov@yandex.ru) already exists.
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:01:03 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:01:03 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:01:03 WARN  [main] org.hibernate.orm.jdbc.error - HHH000247: ErrorCode: 0, SQLState: 23505
+2025-12-28 22:01:03 WARN  [main] org.hibernate.orm.jdbc.error - ОШИБКА: duplicate key value violates unique constraint "users_email_key"
+  Подробности: Key (email)=(ismailov@yandex.ru) already exists.
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:01:03 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:01:03 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:01:03 WARN  [main] org.hibernate.orm.jdbc.error - HHH000247: ErrorCode: 0, SQLState: 23505
+2025-12-28 22:01:03 WARN  [main] org.hibernate.orm.jdbc.error - ОШИБКА: duplicate key value violates unique constraint "users_email_key"
+  Подробности: Key (email)=(ismailov@yandex.ru) already exists.
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:01:03 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:04:00 INFO  [main] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-12-28 22:04:00 INFO  [main] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-12-28 22:04:00 INFO  [main] o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.3
+2025-12-28 22:04:00 INFO  [main] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-12-28 22:04:01 INFO  [main] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-12-28 22:04:01 INFO  [main] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-12-28 22:04:01 INFO  [main] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 29.1.3
+  API Version: 1.52
+  Operating System: Docker Desktop
+  Total Memory: 5820 MB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+2025-12-28 22:04:01 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Creating container for image: testcontainers/ryuk:0.13.0
+2025-12-28 22:04:01 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 is starting: 9e1a94ed28676630de928fbb974591d433bca6c327b59114bc681235dd86093c
+2025-12-28 22:04:02 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 started in PT1.0411328S
+2025-12-28 22:04:02 INFO  [main] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-12-28 22:04:02 INFO  [main] o.testcontainers.DockerClientFactory - Checking the system...
+2025-12-28 22:04:02 INFO  [main] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-12-28 22:04:02 INFO  [main] tc.postgres:latest - Creating container for image: postgres:latest
+2025-12-28 22:04:02 INFO  [main] tc.postgres:latest - Container postgres:latest is starting: 4f0562f52ccd64402b99e6c55a802c4e5082f704c1dfb7048a4e1590f4742ba0
+2025-12-28 22:04:04 INFO  [main] tc.postgres:latest - Container postgres:latest started in PT2.2152821S
+2025-12-28 22:04:04 INFO  [main] tc.postgres:latest - Container is started (JDBC URL: jdbc:postgresql://localhost:50817/test_db?loggerLevel=OFF)
+2025-12-28 22:04:05 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:04:05 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:04:07 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:04:07 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:04:07 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:04:07 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:04:07 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:04:07 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:04:07 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:04:07 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:04:07 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:04:07 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:04:07 DEBUG [main] org.hibernate.SQL - update users set age=?,email=?,username=? where id=?
+2025-12-28 22:04:07 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:04:07 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:04:07 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:04:07 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:04:08 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - delete from users u1_0 where u1_0.id=?
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:04:08 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:04:08 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:04:08 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:04:08 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:04:08 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:04:08 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:04:08 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:04:08 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:04:08 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:04:09 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:12:59 INFO  [main] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-12-28 22:12:59 INFO  [main] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-12-28 22:12:59 INFO  [main] o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.3
+2025-12-28 22:13:00 INFO  [main] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-12-28 22:13:01 INFO  [main] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-12-28 22:13:01 INFO  [main] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-12-28 22:13:01 INFO  [main] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 29.1.3
+  API Version: 1.52
+  Operating System: Docker Desktop
+  Total Memory: 5820 MB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+2025-12-28 22:13:01 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Creating container for image: testcontainers/ryuk:0.13.0
+2025-12-28 22:13:02 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 is starting: 62753d065360867f99e33a63f52cd23a638140c7a334385bb1b6a5e1ed1040a5
+2025-12-28 22:13:03 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 started in PT1.3025564S
+2025-12-28 22:13:03 INFO  [main] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-12-28 22:13:03 INFO  [main] o.testcontainers.DockerClientFactory - Checking the system...
+2025-12-28 22:13:03 INFO  [main] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-12-28 22:13:03 INFO  [main] tc.postgres:latest - Creating container for image: postgres:latest
+2025-12-28 22:13:03 INFO  [main] tc.postgres:latest - Container postgres:latest is starting: e5b2bd5a1d1876c66de1d72ff0ef091628b8568151eb35a5e83c372165db2830
+2025-12-28 22:13:05 INFO  [main] tc.postgres:latest - Container postgres:latest started in PT2.463617S
+2025-12-28 22:13:05 INFO  [main] tc.postgres:latest - Container is started (JDBC URL: jdbc:postgresql://localhost:54111/test_db?loggerLevel=OFF)
+2025-12-28 22:13:06 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:13:07 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:13:09 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:13:09 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:13:09 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:13:10 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:13:10 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:13:10 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:13:10 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:13:10 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:13:49 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:13:50 DEBUG [main] org.hibernate.SQL - delete from users u1_0 where u1_0.id=?
+2025-12-28 22:13:50 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:13:50 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:13:50 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:14:38 INFO  [main] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-12-28 22:14:38 INFO  [main] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-12-28 22:14:38 INFO  [main] o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.3
+2025-12-28 22:14:39 INFO  [main] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-12-28 22:14:40 INFO  [main] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-12-28 22:14:40 INFO  [main] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-12-28 22:14:40 INFO  [main] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 29.1.3
+  API Version: 1.52
+  Operating System: Docker Desktop
+  Total Memory: 5820 MB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+2025-12-28 22:14:40 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Creating container for image: testcontainers/ryuk:0.13.0
+2025-12-28 22:14:40 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 is starting: f0039857f5da1499fe23dd0b1eaba692ad8341660c6d106354725e14ed2f1ea8
+2025-12-28 22:14:41 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 started in PT1.3159123S
+2025-12-28 22:14:41 INFO  [main] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-12-28 22:14:41 INFO  [main] o.testcontainers.DockerClientFactory - Checking the system...
+2025-12-28 22:14:41 INFO  [main] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-12-28 22:14:41 INFO  [main] tc.postgres:latest - Creating container for image: postgres:latest
+2025-12-28 22:14:41 INFO  [main] tc.postgres:latest - Container postgres:latest is starting: ec15e3d4291f52da9e6afd3099fb3e5d557c111ac0d5b4a5127dcc2b9c050d3a
+2025-12-28 22:14:44 INFO  [main] tc.postgres:latest - Container postgres:latest started in PT2.4629697S
+2025-12-28 22:14:44 INFO  [main] tc.postgres:latest - Container is started (JDBC URL: jdbc:postgresql://localhost:51102/test_db?loggerLevel=OFF)
+2025-12-28 22:14:45 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:14:45 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:14:47 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:14:47 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:14:47 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:14:48 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:14:48 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:14:48 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:14:48 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:14:48 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:14:48 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:16:07 INFO  [main] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-12-28 22:16:07 INFO  [main] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-12-28 22:16:08 INFO  [main] o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.3
+2025-12-28 22:16:08 INFO  [main] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-12-28 22:16:09 INFO  [main] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-12-28 22:16:09 INFO  [main] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-12-28 22:16:09 INFO  [main] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 29.1.3
+  API Version: 1.52
+  Operating System: Docker Desktop
+  Total Memory: 5820 MB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+2025-12-28 22:16:09 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Creating container for image: testcontainers/ryuk:0.13.0
+2025-12-28 22:16:09 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 is starting: eb82031d536542dba164a07c3abbb28af7265e5b7c3b058f62b2cdd8755b18d3
+2025-12-28 22:16:10 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 started in PT1.0356475S
+2025-12-28 22:16:10 INFO  [main] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-12-28 22:16:10 INFO  [main] o.testcontainers.DockerClientFactory - Checking the system...
+2025-12-28 22:16:10 INFO  [main] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-12-28 22:16:10 INFO  [main] tc.postgres:latest - Creating container for image: postgres:latest
+2025-12-28 22:16:10 INFO  [main] tc.postgres:latest - Container postgres:latest is starting: 24dd643a1d9b395f855a2f4f10a2cdf597c36ebbbce79ffbd13f6e8b77ef773b
+2025-12-28 22:16:12 INFO  [main] tc.postgres:latest - Container postgres:latest started in PT2.3862482S
+2025-12-28 22:16:12 INFO  [main] tc.postgres:latest - Container is started (JDBC URL: jdbc:postgresql://localhost:55619/test_db?loggerLevel=OFF)
+2025-12-28 22:16:13 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:16:14 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:16:15 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:16:15 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:16:15 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:16:16 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:16:16 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:16:16 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:16:16 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:16:16 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:16:16 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:16:16 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:16:16 DEBUG [main] org.hibernate.SQL - update users set age=?,email=?,username=? where id=?
+2025-12-28 22:16:16 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:16:16 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:16:16 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:16:16 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:16:16 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:16:16 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:16:16 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:16:16 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:16:16 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - delete from users u1_0 where u1_0.id=?
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:16:17 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:16:17 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:16:17 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:16:17 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:16:17 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:16:17 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:16:17 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:16:17 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:16:17 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:21:20 INFO  [main] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-12-28 22:21:20 INFO  [main] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-12-28 22:21:20 INFO  [main] o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.3
+2025-12-28 22:21:21 INFO  [main] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-12-28 22:21:21 INFO  [main] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-12-28 22:21:21 INFO  [main] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-12-28 22:21:21 INFO  [main] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 29.1.3
+  API Version: 1.52
+  Operating System: Docker Desktop
+  Total Memory: 5820 MB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+2025-12-28 22:21:22 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Creating container for image: testcontainers/ryuk:0.13.0
+2025-12-28 22:21:22 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 is starting: 7b621df4b817ff1ee5ddd83445255cd0a8b3a8917603b04561fb4b426072ef38
+2025-12-28 22:21:23 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 started in PT1.1893182S
+2025-12-28 22:21:23 INFO  [main] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-12-28 22:21:23 INFO  [main] o.testcontainers.DockerClientFactory - Checking the system...
+2025-12-28 22:21:23 INFO  [main] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-12-28 22:21:23 INFO  [main] tc.postgres:latest - Creating container for image: postgres:latest
+2025-12-28 22:21:23 INFO  [main] tc.postgres:latest - Container postgres:latest is starting: db82088551fe0bb887dc822de4c698caa0a901568e5516555416e1ba5b63eda3
+2025-12-28 22:21:26 INFO  [main] tc.postgres:latest - Container postgres:latest started in PT2.8247073S
+2025-12-28 22:21:26 INFO  [main] tc.postgres:latest - Container is started (JDBC URL: jdbc:postgresql://localhost:63659/test_db?loggerLevel=OFF)
+2025-12-28 22:21:26 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:21:27 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:21:28 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:21:28 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:21:28 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:21:29 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:21:29 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:21:29 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:21:29 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:21:29 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:21:29 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:21:29 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:21:29 DEBUG [main] org.hibernate.SQL - update users set age=?,email=?,username=? where id=?
+2025-12-28 22:21:29 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:21:29 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:21:29 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:21:29 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:21:29 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:21:29 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:21:29 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:21:29 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:21:29 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - delete from users u1_0 where u1_0.id=?
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:21:30 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:21:30 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:21:30 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:21:30 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:21:30 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:21:30 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:21:30 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:21:30 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:21:30 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:22:46 INFO  [main] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-12-28 22:22:46 INFO  [main] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-12-28 22:22:46 INFO  [main] o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.3
+2025-12-28 22:22:47 INFO  [main] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-12-28 22:22:48 INFO  [main] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-12-28 22:22:48 INFO  [main] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-12-28 22:22:48 INFO  [main] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 29.1.3
+  API Version: 1.52
+  Operating System: Docker Desktop
+  Total Memory: 5820 MB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+2025-12-28 22:22:48 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Creating container for image: testcontainers/ryuk:0.13.0
+2025-12-28 22:22:50 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 is starting: 434cf07d457663af29cb682422abb52a6e7b85f1481511227608d24d7058a132
+2025-12-28 22:22:51 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 started in PT3.0404829S
+2025-12-28 22:22:51 INFO  [main] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-12-28 22:22:51 INFO  [main] o.testcontainers.DockerClientFactory - Checking the system...
+2025-12-28 22:22:51 INFO  [main] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-12-28 22:22:51 INFO  [main] tc.postgres:latest - Creating container for image: postgres:latest
+2025-12-28 22:22:51 INFO  [main] tc.postgres:latest - Container postgres:latest is starting: 14ee0ffe1756d25a6aeb498097c68a1caa6ae08de41738ded5a2ddbc877c53ba
+2025-12-28 22:22:54 INFO  [main] tc.postgres:latest - Container postgres:latest started in PT2.4758309S
+2025-12-28 22:22:54 INFO  [main] tc.postgres:latest - Container is started (JDBC URL: jdbc:postgresql://localhost:59017/test_db?loggerLevel=OFF)
+2025-12-28 22:22:55 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:22:56 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:22:58 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:22:58 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:22:58 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:22:58 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:22:58 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:22:58 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:22:58 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:22:58 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:22:58 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:22:58 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:22:59 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0
+2025-12-28 22:22:59 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:22:59 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:25:07 INFO  [main] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-12-28 22:25:07 INFO  [main] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-12-28 22:25:07 INFO  [main] o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.3
+2025-12-28 22:25:08 INFO  [main] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-12-28 22:25:09 INFO  [main] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-12-28 22:25:09 INFO  [main] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-12-28 22:25:09 INFO  [main] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 29.1.3
+  API Version: 1.52
+  Operating System: Docker Desktop
+  Total Memory: 5820 MB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+2025-12-28 22:25:09 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Creating container for image: testcontainers/ryuk:0.13.0
+2025-12-28 22:25:10 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 is starting: 0253f3b02ba8e3374087509157c7e04dbb92fa09b70a8c9f00e948f580750991
+2025-12-28 22:25:11 INFO  [main] tc.testcontainers/ryuk:0.13.0 - Container testcontainers/ryuk:0.13.0 started in PT1.8534096S
+2025-12-28 22:25:11 INFO  [main] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-12-28 22:25:11 INFO  [main] o.testcontainers.DockerClientFactory - Checking the system...
+2025-12-28 22:25:11 INFO  [main] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-12-28 22:25:11 INFO  [main] tc.postgres:latest - Creating container for image: postgres:latest
+2025-12-28 22:25:11 INFO  [main] tc.postgres:latest - Container postgres:latest is starting: 1ac0508e946c9c03d2fc7ae1b1ff62c89728803345eecce812f9906f0a6fb9d0
+2025-12-28 22:25:14 INFO  [main] tc.postgres:latest - Container postgres:latest started in PT2.9372859S
+2025-12-28 22:25:14 INFO  [main] tc.postgres:latest - Container is started (JDBC URL: jdbc:postgresql://localhost:55643/test_db?loggerLevel=OFF)
+2025-12-28 22:25:15 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:25:15 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:25:17 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:25:17 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:25:17 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:25:17 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:25:17 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:25:17 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:25:17 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:25:17 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:25:17 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:25:18 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:25:18 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0
+2025-12-28 22:25:18 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:25:18 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:25:18 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:25:18 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:25:18 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:25:18 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:25:18 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:25:18 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:25:18 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:25:18 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:25:18 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:25:18 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:25:18 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:25:18 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:25:18 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:25:18 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:25:18 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:25:18 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:25:18 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:25:18 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:25:18 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:25:18 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:25:18 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:25:18 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:25:18 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:25:18 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:25:18 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:25:18 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:25:18 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:25:19 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:25:19 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:25:19 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:25:19 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:25:19 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:25:19 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:25:19 DEBUG [main] org.hibernate.SQL - update users set age=?,email=?,username=? where id=?
+2025-12-28 22:25:19 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:25:19 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:25:19 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:25:19 WARN  [main] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-28 22:25:19 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28 22:25:19 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:25:19 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade
+2025-12-28 22:25:19 DEBUG [main] org.hibernate.SQL - create table users (age integer not null, created_at timestamp(6), id bigint generated by default as identity, username varchar(15) not null, email varchar(25) not null unique, primary key (id))
+2025-12-28 22:25:19 DEBUG [main] org.hibernate.SQL - insert into users (age,created_at,email,username) values (?,?,?,?)
+2025-12-28 22:25:19 DEBUG [main] org.hibernate.SQL - delete from users u1_0 where u1_0.id=?
+2025-12-28 22:25:19 DEBUG [main] org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.username from users u1_0 where u1_0.id=?
+2025-12-28 22:25:19 DEBUG [main] org.hibernate.SQL - set client_min_messages = WARNING
+2025-12-28 22:25:19 DEBUG [main] org.hibernate.SQL - drop table if exists users cascade

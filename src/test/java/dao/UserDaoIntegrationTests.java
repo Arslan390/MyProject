@@ -1,6 +1,7 @@
 package dao;
 
 import entity.User;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.*;
 import org.testcontainers.containers.PostgreSQLContainer;
 import org.testcontainers.junit.jupiter.Container;
@@ -12,42 +13,60 @@ import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+@Slf4j
 @Testcontainers
-@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
+@TestInstance(TestInstance.Lifecycle.PER_METHOD)
 public class UserDaoIntegrationTests {
 
     @Container
-    public static PostgreSQLContainer<?> postgres = new PostgreSQLContainer<>("postgres:latest")
+    private static final PostgreSQLContainer<?> postgres = new PostgreSQLContainer<>("postgres:latest")
             .withDatabaseName("test_db")
-            .withUsername("test_user")
-            .withPassword("test_password");
+            .withUsername("test_name")
+            .withPassword("test_pas");
 
     private UserDao<User, Long> userDao;
 
     @BeforeEach
     public void setup() throws Exception {
-        HibernateUtilForTests.resetSessionFactory();
+        var sessionFactory = HibernateUtilForTests.getSessionFactory(postgres);
 
-        String jdbcUrl = postgres.getJdbcUrl();
-        String username = postgres.getUsername();
-        String password = postgres.getPassword();
-        System.out.println("JDBC URL: " + jdbcUrl); // Отладочный вывод
-        System.out.println("Username: " + username);
-        System.out.println("Password: " + password);
-
-        HibernateUtilForTests.getSessionFactory(jdbcUrl, username, password);
-
+        try {
+            var hibernateUtilClass = Class.forName("utils.HibernateUtil");
+            var sessionFactoryField = hibernateUtilClass.getDeclaredField("sessionFactory");
+            sessionFactoryField.setAccessible(true);  // Открываем доступ к закрытому полю
+            sessionFactoryField.set(null, sessionFactory);
+        } catch (Exception ex) {
+            throw new RuntimeException(ex);
+        }
         userDao = new UserDaoImpl();
+    }
+
+    @BeforeAll
+    static void setUpAll() {
+        postgres.start();
     }
 
     @AfterEach
     public void teardown() {
-        HibernateUtilForTests.resetSessionFactory();
+        try (var sessionFactory = HibernateUtilForTests.getSessionFactory(postgres).openSession()) {
+            var transaction = sessionFactory.beginTransaction();
+            sessionFactory.createMutationQuery("DELETE FROM User").executeUpdate();
+            transaction.commit();
+        } catch (Exception ex) {
+            log.error(String.valueOf(ex));
+        }
+    }
+
+    @AfterAll
+    static void tearDownAll() {
+        HibernateUtilForTests.closeSessionFactory();
+        if (postgres.isRunning()) {
+            postgres.stop();
+        }
     }
 
 
     @Test
-    @Order(1)
     @DisplayName("findAll: возвращает список всех пользователей")
     void findAll_shouldReturnListOfUsers() {
         User user1 = User.builder()
@@ -64,13 +83,11 @@ public class UserDaoIntegrationTests {
 
         userDao.create(user1);
         userDao.create(user2);
-
         List<User> users = userDao.findAll();
         assertEquals(2, users.size());
     }
 
     @Test
-    @Order(2)
     @DisplayName("findById: возвращает пользователя по существующему ID")
     void findById_shouldFindUserByValidID() {
         User expectedUser = User.builder()
@@ -90,7 +107,6 @@ public class UserDaoIntegrationTests {
     }
 
     @Test
-    @Order(3)
     @DisplayName("findById: возвращает пустое значение для несуществующего ID")
     void findById_shouldReturnEmptyForNonexistentID() {
         Optional<User> nonExistentUser = userDao.findById(-1L);
@@ -99,7 +115,6 @@ public class UserDaoIntegrationTests {
     }
 
     @Test
-    @Order(4)
     @DisplayName("saveUser: сохраняет пользователя в БД")
     void saveUser_shouldPersistUser() {
         User user = User.builder()
@@ -117,7 +132,6 @@ public class UserDaoIntegrationTests {
 
 
     @Test
-    @Order(5)
     @DisplayName("update: успешно обновляет пользователя")
     void update_shouldUpdateExistingUser() {
         User initialUser = User.builder()
@@ -147,7 +161,6 @@ public class UserDaoIntegrationTests {
     }
 
     @Test
-    @Order(6)
     @DisplayName("delete: успешно удаляет пользователя по ID")
     void delete_shouldRemoveUserByID() {
         User userToDelete = User.builder()
